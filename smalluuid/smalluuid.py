@@ -30,7 +30,7 @@ class SmallUUID(_uu.UUID):
         return self.small
 
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, str(self))
+        return "{0}('{1}')".format(self.__class__.__name__, str(self))
 
 
 class TypedSmallUUID(SmallUUID):
@@ -60,8 +60,8 @@ class TypedSmallUUID(SmallUUID):
     def _set_type(self, type_num):
         if not 0 <= type_num < 1 << self.type_bits:
             raise ValueError(
-                'Specified type_num of {} outside range available '
-                'to {} bit types (0 to {})'.format(
+                'Specified type_num of {0} outside range available '
+                'to {1} bit types (0 to {2})'.format(
                     type_num, self.type_bits, (1 << self.type_bits) - 1,
                 )
             )
