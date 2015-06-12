@@ -1,4 +1,3 @@
-from asyncio.test_utils import TestCase
 import unittest
 import uuid as _uu
 
