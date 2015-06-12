@@ -23,20 +23,24 @@ represents UUIDs as 22 character base64-encoded values.
 ```python
 >>> from smalluuid import SmallUUID
 >>> uuid = SmallUUID()
->>> # Displays as short UUID by default
+
+# Displays as short UUID by default
 >>> uuid
 SmallUUID('IBNApQOzTHGzdjkSt6t-Jg')
 >>> print(uuid)
 IBNApQOzTHGzdjkSt6t-Jg
->>> # Hex output still available
+
+# Hex output still available
 >>> SmallUUID().hex
 '44a30f95b86f429f83c5669fed1998ab'
 >>> uuid.hex_grouped
 '201340a5-03b3-4c71-b376-3912b7ab7e26'
->>> # Will initialise from short UUID
+
+# Will initialise from short UUID
 >>> SmallUUID('IBNApQOzTHGzdjkSt6t-Jg')
 SmallUUID('IBNApQOzTHGzdjkSt6t-Jg')
->>> # Will load as a hex value
+
+# Will load as a hex value
 >>> SmallUUID(hex='201340a5-03b3-4c71-b376-3912b7ab7e26')
 SmallUUID('RKMPlbhvQp-DxWaf7RmYqw')
 ```
@@ -53,14 +57,17 @@ An extension of ``SmallUUID`` is available in the form of ``TypedSmallUUID``:
 
 ```python
 >>> from smalluuid import TypedSmallUUID
->>> # Takes a type during instantiation
+
+# Takes a type during instantiation
 >>> uuid = TypedSmallUUID(type=42)
 >>> uuid
 TypedSmallUUID('qHHvXuUwT6y7t7dnsiksvg')
->>> # Type is stored within the UUID
+
+# Type is stored within the UUID
 >>> uuid.type
 42
->>> # Type determined from provided UUID value
+
+# Type determined from provided UUID value
 >>> TypedSmallUUID('qHHvXuUwT6y7t7dnsiksvg').type
 42
 ```
