@@ -9,7 +9,9 @@ def pack_uuid(uuid):
     return packed_string
 
 def unpack_uuid(short_uuid):
-    return UUID(bytes=base64.urlsafe_b64decode((short_uuid + '==').replace('_', '/')))
+    uuid_as_b64 = (short_uuid + '==').replace('_', '/')
+    bytes = base64.urlsafe_b64decode(uuid_as_b64.encode("utf-8"))
+    return UUID(bytes=bytes)
 
 
 def make_typed_uuid(type_bits, type_size):
