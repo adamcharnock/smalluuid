@@ -9,5 +9,5 @@ python:
 install:
   - "python setup.py develop"
   - "pip install ."
-  - "pip install py.test"
+  - "pip install pytest"
 script: py.test
