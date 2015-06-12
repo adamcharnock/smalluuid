@@ -12,7 +12,9 @@ setup(
     author='Adam Charnock',
     author_email='adam@adamcharnock.com',
     # If you had smalluuid.tests, you would also include that in this list
-    packages=find_packages(),
+    packages=find_packages(
+        'smalluuid.tests',
+    ),
     # Any executable scripts, typically in 'bin'. E.g 'bin/do-something.py'
     scripts=[],
     url='https://github.com/adamcharnock/smalluuid',
