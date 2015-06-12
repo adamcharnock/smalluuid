@@ -47,8 +47,12 @@ SmallUUID('RKMPlbhvQp-DxWaf7RmYqw')
 
 Notable differences from Python's UUID implementation:
 
+* Short-form UUIDs accepted as first parameter to ``__init__``
 * Instantiating without a value will assign a random value of the given version (default: 4) 
   rather than raise an exception.
+* Addition of ``hex_grouped`` property to provide access to grouped hex style UUIDs, formally 
+  provided by ``__str__``.
+
 
 Typed UUID Usage
 ----------------
