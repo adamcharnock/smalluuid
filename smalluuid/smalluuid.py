@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import uuid as _uu
 from smalluuid.utils import unpack_uuid, pack_uuid
 

@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 
 # It must be possible to import this file with 
 # none of the package's dependencies installed
