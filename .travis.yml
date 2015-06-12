@@ -7,6 +7,7 @@ python:
   - "3.4"
   - "nightly"
 install:
+  - "python setup.py develop"
   - "pip install ."
   - "pip install py.test"
 script: py.test

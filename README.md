@@ -1,11 +1,17 @@
 smalluuid
 ===========================================================
 
+[![PyPI version](https://badge.fury.io/py/django.svg)](http://badge.fury.io/py/django)
+
+[![Build status](https://travis-ci.org/adamcharnock/smalluuid.svg?branch=master)](https://travis-ci.org/adamcharnock/smalluuid)
+
 .. image:: https://badge.fury.io/py/smalluuid.png
     :target: https://badge.fury.io/py/smalluuid
 
 .. image:: https://pypip.in/d/smalluuid/badge.png
     :target: https://pypi.python.org/pypi/smalluuid
+
+
 
 Installation
 ------------
