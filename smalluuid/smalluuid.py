@@ -50,13 +50,13 @@ class TypedSmallUUID(SmallUUID):
         )
 
         if type is not None:
-            self.set_type(type)
+            self._set_type(type)
 
     @property
     def type(self):
         return self.int >> 128 - self.type_bits
 
-    def set_type(self, type_num):
+    def _set_type(self, type_num):
         if not 0 <= type_num < 1 << self.type_bits:
             raise ValueError(
                 'Specified type_num of {} outside range available '
