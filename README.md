@@ -5,6 +5,8 @@ smalluuid
 
 [![Build status](https://travis-ci.org/adamcharnock/smalluuid.svg?branch=master)](https://travis-ci.org/adamcharnock/smalluuid)
 
+[![Coverage Status](https://coveralls.io/repos/adamcharnock/smalluuid/badge.svg)](https://coveralls.io/r/adamcharnock/smalluuid)
+
 Installation
 ------------
 
