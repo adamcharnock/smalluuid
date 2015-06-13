@@ -9,3 +9,4 @@
 .bash_history
 .coveralls.yml
 .coverage
+/dist
