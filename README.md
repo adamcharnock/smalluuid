@@ -1,11 +1,12 @@
 smalluuid
 ===========================================================
 
-[![PyPI version](https://badge.fury.io/py/django.svg)](http://badge.fury.io/py/django)
-
+[![PyPI version](https://img.shields.io/pypi/v/smalluuid.svg)](https://pypi.python.org/pypi/smalluuid/)
+![Downloads](https://img.shields.io/pypi/dm/smalluuid.svg)
 [![Build status](https://travis-ci.org/adamcharnock/smalluuid.svg?branch=master)](https://travis-ci.org/adamcharnock/smalluuid)
-
 [![Coverage Status](https://coveralls.io/repos/adamcharnock/smalluuid/badge.svg)](https://coveralls.io/r/adamcharnock/smalluuid)
+![License](https://img.shields.io/github/license/adamcharnock/smalluuid.svg)
+
 
 Installation
 ------------
