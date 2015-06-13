@@ -10,6 +10,12 @@ Version 0.1.0 (first version), Sat 13 Jun 2015
 
 ----
 
+Version 0.1.2, Sat 13 Jun 2015
+===============================
+
+0978f7cb8d	Fixing included files (Adam Charnock)
+
+
 Version 0.1.1, Sat 13 Jun 2015
 ===============================
 
