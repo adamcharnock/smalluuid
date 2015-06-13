@@ -17,6 +17,7 @@ setup(
     url='https://github.com/adamcharnock/smalluuid',
     license='BSD',
     description="Provides ShortUUID which extends Python's builtin UUID class",
+    long_description=open('README.md').read() if exists("README.md") else "",
     # Any requirements here, e.g. "Django >= 1.1.1"
     install_requires=[
         
