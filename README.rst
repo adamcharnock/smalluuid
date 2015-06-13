@@ -1,11 +1,20 @@
 smalluuid
 =========
 
-[![PyPI version](https://img.shields.io/pypi/v/smalluuid.svg)](https://pypi.python.org/pypi/smalluuid/)
-![Downloads](https://img.shields.io/pypi/dm/smalluuid.svg)
-[![Build status](https://travis-ci.org/adamcharnock/smalluuid.svg?branch=master)](https://travis-ci.org/adamcharnock/smalluuid)
-[![Coverage Status](https://coveralls.io/repos/adamcharnock/smalluuid/badge.svg)](https://coveralls.io/r/adamcharnock/smalluuid)
-![License](https://img.shields.io/github/license/adamcharnock/smalluuid.svg)
+.. image:: https://img.shields.io/pypi/v/smalluuid.svg
+    :target: https://pypi.python.org/pypi/smalluuid/
+
+.. image:: https://img.shields.io/pypi/dm/smalluuid.svg
+    :target: https://pypi.python.org/pypi/smalluuid/
+
+.. image:: https://img.shields.io/github/license/adamcharnock/smalluuid.svg
+    :target: https://pypi.python.org/pypi/smalluuid/
+
+.. image:: https://img.shields.io/travis/adamcharnock/smalluuid.svg
+    :target: https://travis-ci.org/adamcharnock/smalluuid/
+
+.. image:: https://coveralls.io/repos/adamcharnock/smalluuid/badge.svg
+    :target: https://coveralls.io/r/adamcharnock/smalluuid/
 
 
 Installation
@@ -61,6 +70,7 @@ Typed UUID Usage
 An extension of ``SmallUUID`` is available in the form of ``TypedSmallUUID``:
 
 .. code-block:: python
+
     >>> from smalluuid import TypedSmallUUID
     
     # Takes a type during instantiation
@@ -85,9 +95,9 @@ Credits
 *Any credits here*
 
 This project borrowed a little code and inspiration from 
-[shortuuid](https://github.com/stochastic-technologies/shortuuid).
+shortuuid_.
 
 ``smalluuid`` is packaged using seed_.
 
 .. _seed: https://github.com/adamcharnock/seed/
-
+.. _shortuuid: https://github.com/stochastic-technologies/shortuuid
