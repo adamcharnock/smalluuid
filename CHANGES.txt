@@ -8,3 +8,10 @@ Version 0.1.0 (first version), Sat 13 Jun 2015
 ===============================================
 
 
+----
+
+Version 0.1.1, Sat 13 Jun 2015
+===============================
+
+f79367e3b4	pypi tweaks (Adam Charnock)
+dff9b84904	Fixing indentation (Adam Charnock)
