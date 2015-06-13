@@ -73,3 +73,7 @@ class TestTypedSmallUUIDClass(unittest.TestCase):
     def test_overflow(self):
         from smalluuid.smalluuid import TypedSmallUUID
         self.assertRaises(ValueError, TypedSmallUUID, type=64)
+
+    def test_value_or_type_required(self):
+        from smalluuid.smalluuid import TypedSmallUUID
+        self.assertRaises(ValueError, TypedSmallUUID)
