@@ -1,5 +1,10 @@
 Change-log for smalluuid.
+ 
+ This file will be added to as part of each release
+ 
+ ----
+ 
+Version 0.1.0 (first version), Sat 13 Jun 2015
+===============================================
 
-This file will be added to as part of each release
 
-----
