@@ -24,6 +24,8 @@ Installation using pip::
 
     pip install smalluuid
 
+**Do you use Django?** See django-smalluuid_.
+
 Basic Usage
 -----------
 
@@ -101,3 +103,4 @@ shortuuid_.
 
 .. _seed: https://github.com/adamcharnock/seed/
 .. _shortuuid: https://github.com/stochastic-technologies/shortuuid
+.. _django-smalluuid: https://github.com/adamcharnock/django-smalluuid
