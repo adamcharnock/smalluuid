@@ -10,6 +10,12 @@ Version 0.1.0 (first version), Sat 13 Jun 2015
 
 ----
 
+Version 1.0.0, Mon 12 Dec 2016
+===============================
+
+63dadadb9b	Adding link to django-smalluuid in Readme (Adam Charnock)
+
+
 Version 0.1.4, Sat 13 Jun 2015
 ===============================
 

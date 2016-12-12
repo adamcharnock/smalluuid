@@ -3,11 +3,10 @@
 from os.path import exists
 from setuptools import setup, find_packages
 
-from smalluuid import __version__
 
 setup(
     name='smalluuid',
-    version=__version__,
+    version=open('VERSION').read().strip(),
     # Your name & email here
     author='Adam Charnock',
     author_email='adam@adamcharnock.com',

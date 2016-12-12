@@ -3,3 +3,5 @@ include *.rst
 include *.md
 include *.py
 recursive-include docs *
+
+include VERSION
