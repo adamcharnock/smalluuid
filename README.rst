@@ -94,8 +94,6 @@ both an object's ID and the object's type/table/model.
 Credits
 -------
 
-*Any credits here*
-
 This project borrowed a little code and inspiration from 
 shortuuid_.
 
