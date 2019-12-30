@@ -76,7 +76,7 @@ class TypedSmallUUID(SmallUUID):
         if not 0 <= bits < 1 << 128:
             raise ValueError('Addition of type overflowed max value (128-bits max)')
 
-        self.__dict__['int'] = bits
+        object.__setattr__(self, 'int', bits)
 
 
 def small_uuid(name=None):
