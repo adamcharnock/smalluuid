@@ -10,6 +10,14 @@ Version 0.1.0 (first version), Sat 13 Jun 2015
 
 ----
 
+Version 1.1.0, Sat 25 Apr 2020
+===============================
+
+1434562074	TypedSmallUUID: fix setting type with py38 (Daniel Hahler)
+ae5d462cc1	Dropping python 3.2 support (Adam Charnock)
+9b9645815f	Readme tweak (Adam Charnock)
+
+
 Version 1.0.0, Mon 12 Dec 2016
 ===============================
 
